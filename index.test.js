@@ -1,7 +1,7 @@
 const treemaker = require('./treemaker');
 const Tree = treemaker.Tree;
 
-// 3 test to check the code and see that it is working as expected
+// Tests
 describe('tests numbersToTree()', () => {
     it('works with two inputted numbers', () => {
         const leaves = new Tree();
